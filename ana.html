@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+</body>
+<script>
+    String.prototype.startsWith = function (str) {
+        return this.indexOf(str) == 0;
+    };
+
+    function parseView() {
+        var ana = this.responseText;
+        var baslangic = '<sayfa başlık="';
+
+        if (!ana.startsWith(baslangic)) {
+            console.log("lütfen sayfanıza başlık ekleyin!");
+        } else {
+            document.title = ana.substring(baslangic.length, ana.substring(baslangic.length).indexOf('"') + baslangic.length);
+        }
+
+        ana = ana.replace(/<üst>/g, '<header>').replace(/<\/üst>/g, '</header>');
+        ana = ana.replace(/<alt>/g, '<footer>').replace(/<\/alt>/g, '</footer>');               
+        ana = ana.replace(/<bölüm>/g, '<div>').replace(/<\/bölüm>/g, '</div>');
+        ana = ana.replace(/<çizgi\/>/g, '<hr/>');
+
+        ana = ana.replace(/<başlık>/g, '<h1>').replace(/<\/başlık>/g, '</h1>');      
+
+        ana = ana.replace(/<paragraf>/g, '<p>').replace(/<\/paragraf>/g, '</p>');
+        ana = ana.replace(/<soru>/g, '<h3>').replace(/<\/soru>/g, '</h3>');
+        ana = ana.replace(/<cevap>/g, '<em>').replace(/<\/cevap>/g, '</em>');
+        ana = ana.replace(/<önemli>/g, '<strong>').replace(/<\/önemli>/g, '</strong>');
+        ana = ana.replace(/<alıntı>/g, '<blockquote>').replace(/<\/alıntı>/g, '</blockquote>');
+
+        ana = ana.replace(/<liste>/g, '<ul>').replace(/<\/liste>/g, '</ul>');
+        ana = ana.replace(/<öğe>/g, '<li>').replace(/<\/öğe>/g, '</li>');
+        
+        document.body.innerHTML = ana;
+    }
+
+    var oReq = new XMLHttpRequest();
+    oReq.onload = parseView;
+    oReq.open("GET", "ana.sayfa", true);
+    oReq.send();
+</script>
+</html>
