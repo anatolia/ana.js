@@ -1,0 +1,67 @@
+<sayfa başlık="ana.js nedir?" stil="ana.css" kod="ana.js">
+
+  <bölüm>
+    <başlık>Ana.js</başlık>
+    <paragraf>
+      Yazılım geliştirme işinde bugün, bazı firmaların geliştiricileri yönlendirdiği bir dönemdeyiz.
+      2 yılda bir birşeyleri popülerleştirip nesiller arasındaki iletişimi de zorlaştırıyorlar. Tecrübelerden faydalanılamıyor.
+      Tabi tecrübesini paylaşmak isteyenler varsa!
+    </paragraf>
+    <paragraf>
+      Yıllar içinde yapılan uygulamalar iş anlamında hep aynı olmasına rağmen, dönem dönem geliştirme modelleri/akımları değişiyor.
+      Eğer İngilizce bilmiyorsanız, değişime ayak uydurmak imkansız. Ama geliştiriciler geliştikçe, işleri çözmede tasarım kalıpları kullanımı artıyor.
+    </paragraf>
+    <paragraf>
+      Bu proje web geliştirme ortamı için tamamen <önemli>Türkçe</önemli> bir dil oluşturmaya çalışmanın ilk adımıdır.
+    </paragraf>
+    <paragraf>
+      Yada bu çalışma eğitsel bir çalışma olarak da kalabilir. <kısaltma>HTML</kısaltma> ve <kısaltma>XML</kısaltma> öğretmek istediğimiz birine konu örneği olarak verebiliriz.
+    </paragraf>
+  </bölüm>
+
+  <bölüm>
+    <soru>Ana.js Nedir?</soru>
+    <cevap>
+      Kendi desteklediği <önemli>Türkçe</önemli> işaretleme etiketleriyle oluşturulmuş dökümanları,
+      html destekli istemcilerde çalıştırabilmek için işleyen bir araçtır.
+    </cevap>
+
+  </bölüm>
+
+  <çizgi/>
+
+  <paragraf>
+    <başlık seviye="2">Ana.js sayfa işaretleme elemanları</başlık>
+    <liste>
+      <öğe>sayfa</öğe>
+
+      <öğe>başlık</öğe>
+      <öğe>paragraf</öğe>
+      <öğe>soru</öğe>
+      <öğe>cevap</öğe>
+
+      <öğe>alıntı</öğe>
+      <öğe>önemli</öğe>
+
+      <öğe>bağlantı</öğe>
+      <öğe>resim</öğe>
+      <öğe>ses</öğe>
+      <öğe>vidyo</öğe>
+
+      <öğe>liste</öğe>
+      <öğe>bölüm</öğe>
+
+      <öğe>tablo</öğe>
+      <öğe>satır</öğe>
+      <öğe>hücre</öğe>
+
+      <öğe>form</öğe>
+      <öğe>girdi</öğe>
+      <öğe>düğme</öğe>
+
+    </liste>
+  </paragraf>
+
+
+  <alt>* bu çalışma şimdilik deneyseldir</alt>
+</sayfa>
