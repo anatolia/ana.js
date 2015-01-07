@@ -5,7 +5,6 @@
     <paragraf>
       Yazılım geliştirme işinde bugün, bazı firmaların geliştiricileri yönlendirdiği bir dönemdeyiz.
       2 yılda bir birşeyleri popülerleştirip nesiller arasındaki iletişimi de zorlaştırıyorlar. Tecrübelerden faydalanılamıyor.
-      Tabi tecrübesini paylaşmak isteyenler varsa!
     </paragraf>
     <paragraf>
       Yıllar içinde yapılan uygulamalar iş anlamında hep aynı olmasına rağmen, dönem dönem geliştirme modelleri/akımları değişiyor.
@@ -34,31 +33,67 @@
     <başlık seviye="2">Ana.js sayfa işaretleme elemanları</başlık>
     <liste>
       <öğe>sayfa</öğe>
+      
+      <öğe>bölüm</öğe>
+      <öğe>alan</öğe>
+      <öğe>tablo</öğe>
+      <öğe>satır</öğe>
+      <öğe>hücre</öğe>
+      <öğe>liste</öğe>
+      <öğe>öğe</öğe>
 
       <öğe>başlık</öğe>
       <öğe>paragraf</öğe>
-      <öğe>soru</öğe>
-      <öğe>cevap</öğe>
-
-      <öğe>alıntı</öğe>
-      <öğe>önemli</öğe>
-
+      
       <öğe>bağlantı</öğe>
       <öğe>resim</öğe>
       <öğe>ses</öğe>
       <öğe>vidyo</öğe>
-
-      <öğe>liste</öğe>
-      <öğe>bölüm</öğe>
-
-      <öğe>tablo</öğe>
-      <öğe>satır</öğe>
-      <öğe>hücre</öğe>
-
+      
       <öğe>form</öğe>
       <öğe>girdi</öğe>
       <öğe>düğme</öğe>
 
+    </liste>
+    
+    <başlık seviye="2">Anlamsal (Semantik) ağ işaretleme elemanı önerileri</başlık>
+    <liste>
+      <öğe>alıntı</öğe>
+      <öğe>önemli</öğe>
+      <öğe>kısaltma</öğe>
+      
+      <öğe>özdeyiş</öğe>
+      <öğe>atasözü</öğe>
+      
+      <öğe>soru</öğe>
+      <öğe>cevap</öğe>
+      
+      <öğe>kişi</öğe>
+      
+      <öğe>otel</öğe>
+      <öğe>restaurant</öğe>
+      <öğe>sinema</öğe>
+      <öğe>eczane</öğe>
+      <öğe>hastane</öğe>
+      <öğe>okul</öğe>
+      <öğe>kurum</öğe>
+      <öğe>firma</öğe>
+      
+      <öğe>film</öğe>
+      <öğe>kitap</öğe>
+      <öğe>ürün</öğe>
+      
+      <öğe>yemek</öğe>
+      <öğe>gıda</öğe>
+      
+      <öğe>oyun</öğe>
+      
+      
+      <öğe>ülke</öğe>
+      <öğe>bölge</öğe>
+      <öğe>şehir</öğe>
+      <öğe>ilçe</öğe>
+      
     </liste>
   </paragraf>
 
