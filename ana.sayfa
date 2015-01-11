@@ -4,17 +4,25 @@
     <başlık>Ana.js</başlık>
     <paragraf>
       Yazılım geliştirme işinde bugün, bazı firmaların geliştiricileri yönlendirdiği bir dönemdeyiz.
-      2 yılda bir birşeyleri popülerleştirip nesiller arasındaki iletişimi de zorlaştırıyorlar. Tecrübelerden faydalanılamıyor.
+      
+      2 yılda bir birşeyleri popülerleştirip takibi zor bir işe çeviriyorlar.
+      
+      Ve daha kötüsü bu durum nesiller arasındaki iletişimi zorlaştırıyorlar. Tecrübelerden faydalanılamıyor.
     </paragraf>
     <paragraf>
-      Yıllar içinde yapılan uygulamalar iş anlamında hep aynı olmasına rağmen, dönem dönem geliştirme modelleri/akımları değişiyor.
-      Eğer İngilizce bilmiyorsanız, değişime ayak uydurmak imkansız. Ama geliştiriciler geliştikçe, işleri çözmede tasarım kalıpları kullanımı artıyor.
+      Yıllar içinde yapılan uygulamalar iş anlamında hep aynı olmasına rağmen, 
+      dönem dönem geliştirme modelleri/akımları değişiyor.
+      
+      Eğer İngilizce bilmiyorsanız, değişime ayak uydurmak imkansız. 
+      Ama geliştiriciler geliştikçe, işleri çözmede tasarım kalıpları kullanımı artıyor.
     </paragraf>
     <paragraf>
-      Bu proje web geliştirme ortamı için tamamen <önemli>Türkçe</önemli> bir dil oluşturmaya çalışmanın ilk adımıdır.
+      Bu proje web geliştirme ortamı için tamamen <önemli>Türkçe</önemli> ve tasarım kalıpları ile tasarlanmış bir dil oluşturmaya çalışmanın ilk adımıdır.
     </paragraf>
     <paragraf>
-      Ya da bu çalışma eğitsel bir çalışma olarak da kalabilir. <kısaltma>HTML</kısaltma> ve <kısaltma>XML</kısaltma> öğretmek istediğimiz birine konu örneği olarak verebiliriz.
+      Ya da bu çalışma eğitsel bir çalışma olarak da kalabilir. 
+      Önyüz (frontend) geliştirme için tasarlanan kısımlar, 
+      <kısaltma>HTML</kısaltma> ve <kısaltma>XML</kısaltma> öğretmek amaçlı konu örneği olarak da kullanılabilir.
     </paragraf>
   </bölüm>
 
@@ -80,18 +88,23 @@
       <öğe>firma</öğe>
       
       <öğe>film</öğe>
+      <öğe>dizi</öğe>
       <öğe>kitap</öğe>
+      <öğe>şiir</öğe>
       <öğe>ürün</öğe>
+      
+      <öğe>ders</öğe>
+      <öğe>konu</öğe>
+      <öğe>kazanım</öğe>
       
       <öğe>yemek</öğe>
       <öğe>gıda</öğe>
       
       <öğe>oyun</öğe>
       
-      
       <öğe>ülke</öğe>
       <öğe>bölge</öğe>
-      <öğe>şehir</öğe>
+      <öğe>il</öğe>
       <öğe>ilçe</öğe>
       
     </liste>
