@@ -1,6 +1,4 @@
 ana.js
 ======
 
-Web geliştirme ortamı için tamamen Türkçe bir dil oluşturmaya çalışmanın ilk adımıdır.
-
-Ya da bu çalışma eğitsel bir çalışma olarak da kalabilir. HTML ve XML öğretmek istediğimiz birine konu örneği olarak verebiliriz.
+Kendi desteklediği Türkçe işaretleme etiketleriyle oluşturulmuş dökümanları, html destekli istemcilerde çalıştırabilmek için işleyen bir araçtır.
